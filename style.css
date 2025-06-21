@@ -1,0 +1,55 @@
+*{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:#ffc600;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('2103722-3840x2160-desktop-4k-universe-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.keys{
+    display: flex;
+    grid-template-rows:1fr;
+    text-align: center;
+    grid-gap: .5px;
+
+}
+
+.key{
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1.5rem;
+    padding: 0px;
+    transition: all 0.07s;
+    width: 100px;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 5px black;
+}
+.playing{
+    transform: scale(1.1);
+    border-color: #00e1ff;
+    box-shadow: 0 0 10px #00ffff;
+}
+kdb{
+   display: block;
+    font-size: 40px;
+}
+.sound{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffc600;
+    display: block;
+}
